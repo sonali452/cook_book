@@ -1,0 +1,8 @@
+tables 'ingredients', 'usersrecipe' and 'videos' have userid as foreign key from
+ table 'users'
+And 
+tables 'ingredients' and 'videos' have dish_id as foreign key from
+table 'usersrecipe'
+
+folders 'picUpload' and 'videos' are connected to database so don't delete
+it
